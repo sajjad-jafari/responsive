@@ -1,0 +1,175 @@
+
+
+
+body{
+    margin:0;
+    color: white;
+    background-color: rgb(230, 227, 227);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+nav {
+    height: 60px;
+    
+    background-color: rgba(0, 0, 0, 0.753);
+    top: 0px;
+    position: fixed;
+    display: block;
+    width: 100%;
+    margin-top: px;
+    
+    display: flex;
+    justify-content: center;
+   
+}
+
+.nav-container {
+    width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+
+.nav-container div:nth-child(2) a {
+border: 1px solid white;
+padding: 5px 20px;
+margin-left: 15px;
+}
+
+.nav-container p {
+    font-family: 'Anton', sans-serif;
+
+}
+
+
+
+
+.container {
+   
+    min-height: 500px;
+    max-width: 1024px;
+    margin: 0px auto;
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 15px;
+    
+}
+.card {
+    box-sizing: border-box;
+    width: 100%;
+    
+}
+
+.col {
+    color: white;
+    width: 30%;
+    margin-bottom: 40px;
+    background-color: cadetblue;
+
+
+   
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+.col p {
+    margin: 10px 20px 30px 20px
+}
+.col p::first-line {
+    color:white;
+    font-weight: bold;
+}
+
+
+
+
+
+@media  (max-width: 768px) {
+
+ .col {
+    
+    width: 45%;
+    margin-bottom: 40px;
+
+   
+
+}
+
+
+ 
+}
+
+
+
+.imgtext {
+    width: 100%;
+    
+}
+
+
+
+@media (max-width: 550px)
+{
+
+    nav {
+        height: 130px;
+    
+    background-color: rgba(0, 0, 0, 0.753);
+    position:static;
+    top: 0px;
+    width: 100%;
+    
+    display: flex;
+    
+    }
+    .nav-container {
+        width: 450px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    
+    }
+   
+    .nav-container div:nth-child(2) a {
+       display:block;
+       box-sizing: border-box;
+       height: 30px;
+        min-width: 500px;
+        border: 1px solid white;
+        padding: 5px 90px;
+       
+        }
+
+
+    .container{
+        justify-content: center;
+        padding-top: 10px;
+
+    }
+    .col {
+        
+        width: 90%;
+        margin-bottom: 40px;
+      
+    
+}
+
+}
+
+
+ 
